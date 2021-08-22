@@ -1,0 +1,156 @@
+#facebook, #instagram, #whatsapp    {
+height:                             35px;
+padding:                            4px 8px 4px 8px;
+margin:                             8px 8px 8px 8px;
+width:                              35px;
+}
+
+
+div#navbar-bravo    a    { 
+display:                 block;
+color:                  black;
+padding:                 8px 16px 8px 16px;
+text-decoration:         none;                              
+}
+
+
+div#navbar-bravo    a.active    { 
+background-color:              black;
+color:                         white;  
+}
+
+
+div#navbar-bravo    a:hover:not(.active)    { 
+background-color:                          darkgrey;
+color:                                     white;
+}
+
+
+div#navbar-bravo    ul    {
+background-color:         whitesmoke;
+list-style-type:          none;
+margin:                   0px 0px 0px 0px;
+padding:                  0px 0px 0px 0px;
+width:                    125px;
+}
+
+
+div#navbar-charlie    li.dropdown    {    /*  https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar  */
+display:                             inline-block;
+}
+
+
+div#navbar-charlie    li    {
+float:                      left;
+}
+ 
+
+div#navbar-charlie    li    a    {
+background-color:                black;
+color:                           white;
+display:                         inline-block;
+padding:                         14px 16px 14px 16px;
+text-align:                      center;
+text-decoration:                 none;
+}
+
+
+div#navbar-charlie    li.dropdown    a:hover:not(.dropbtn)    {
+background-color:                                             whitesmoke;
+color:                                                        black;
+}
+
+
+div#navbar-charlie    li    a:hover, .dropdown:hover  a.dropbtn    {
+background-color:                                                  red;
+}
+
+
+div#navbar-charlie    ul    {
+list-style-type:            none;
+margin:                     0px;
+padding:                    0px;
+overflow:                   hidden;
+background-color:           black;
+}
+
+
+li.dropdown:hover    div.dropdown-content    {
+display:                                     block;
+}
+
+
+div.dropdown-content    {
+box-shadow:             0px 8px 16px 0px black;
+display:                none;
+min-width:              160px;
+position:               absolute;
+z-index:                1;
+}
+
+
+#navbar-alpha    {
+height:          8%; /* 8/100 x 1000px = 80px */
+border-style:    solid;
+border-width:    4px 4px 4px 4px;
+padding:         12px 12px 12px 12px;
+}
+
+
+#navbar-bravo    {
+height:          25%; /* 25/100 x 1000px = 250px */
+width:           25%;
+}
+
+
+#navbar-charlie  {
+height:          25%;
+width:           100%;
+}
+
+
+#page-one    {
+height:      1000px;
+width:       100%;
+}
+
+
+ul.inline-left    li    {
+background-color:       antiquewhite;
+border-style:           groove solid groove solid;
+border-width:           6px 2px 6px 2px;
+float:                  left;  
+margin:                 8px 8px 8px 8px;
+padding:                4px 4px 4px 4px;
+}
+
+
+ul.inline-left    a    {
+padding:               4px 8px 4px 8px;    
+}
+
+
+ul.inline-left    a:hover    {
+background-color:            black;
+color:                       whitesmoke;
+}
+
+
+ul.inline-right    li    {
+border-width:            8px 4px 8px 4px;
+float:                   right;
+margin:                  -8px 32px -8px -8px;
+padding:                 6px 2px 6px 2px;
+}
+
+
+ul.inline-left    li, ul.inline-right    li    {
+display:                                       inline;
+font-family:                                   'Times New Roman', Times, serif;
+font-style:                                    italic;
+}
+
+
+
+
+
