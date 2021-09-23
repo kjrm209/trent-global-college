@@ -1,13 +1,13 @@
 /* Image:-
 */
-article#r2-r4-c1-c4     {
-border-color:           black lightgrey black lightgrey;
-border-style:           solid groove solid groove;
-border-width:           2px 8px 2px 8px;
-grid-column-end:        4;
-grid-column-start:      1;
-grid-row-end:           4;
-grid-row-start:         2;     
+article#r2-r4-c1-c4             {
+border-color:                  black lightgrey black lightgrey;
+border-style:                   solid groove solid groove;
+border-width:                   2px 8px 2px 8px;
+grid-column-end:                4;
+grid-column-start:              1;
+grid-row-end:                   4;
+grid-row-start:                 2;     
 }
 
 
@@ -19,40 +19,40 @@ width:                          600px;
 
 /* 2:-
 */
-article#r2-r4-c4-c5     {
-border-color:           black black lightgrey lightgrey;
-border-style:           solid solid groove groove;
-border-width:           2px 2px 8px 8px;
-grid-column-end:        5;
-grid-column-start:      4;
-grid-row-end:           4;
-grid-row-start:         2;
+article#r2-r4-c4-c5             {
+border-color:                   black black lightgrey lightgrey;
+border-style:                   solid solid groove groove;
+border-width:                   2px 2px 8px 8px;
+grid-column-end:                5;
+grid-column-start:              4;
+grid-row-end:                   4;
+grid-row-start:                 2;
 } 
 
 
 /* 3:-
 */
-article#r4-r5-c1-c5     {
-border-color:           black black lightgrey lightgrey;
-border-style:           solid solid groove groove;
-border-width:           2px 2px 8px 8px;
-grid-column-end:        5;
-grid-column-start:      1;
-grid-row-end:           5;
-grid-row-start:         4;
+article#r4-r5-c1-c5             {
+border-color:                   black black lightgrey lightgrey;
+border-style:                   solid solid groove groove;
+border-width:                   2px 2px 8px 8px;
+grid-column-end:                5;  
+grid-column-start:              1;
+grid-row-end:                   5;
+grid-row-start:                 4;
 }
 
 
 /*  Image:-
 */
-article#r6-r8-c2-c5     {
-border-color:           black lightgrey black lightgrey;
-border-style:           solid groove solid groove;
-border-width:           2px 8px 2px 8px;
-grid-column-end:        5;
-grid-column-start:      2;
-grid-row-end:           8;
-grid-row-start:         6;
+article#r6-r8-c2-c5             {
+border-color:                   black lightgrey black lightgrey;
+border-style:                   solid groove solid groove;
+border-width:                   2px 8px 2px 8px;
+grid-column-end:                5;
+grid-column-start:              2;
+grid-row-end:                   8;
+grid-row-start:                 6;
 }
 
 
@@ -77,85 +77,117 @@ grid-row-start:                 6;
 
 /* 6:-
 */
-article#r8-r9-c2-c5    {
-border-color:           black black lightgrey lightgrey;
-border-style:           solid solid groove groove;
-border-width:           2px 2px 8px 8px;
-grid-column-end:        5;
-grid-column-start:      2;
-grid-row-end:           9;
-grid-row-start:         8;
+article#r8-r9-c2-c5             {
+border-color:                   black black lightgrey lightgrey;
+border-style:                   solid solid groove groove;
+border-width:                   2px 2px 8px 8px;
+grid-column-end:                5;
+grid-column-start:              2;
+grid-row-end:                   9;
+grid-row-start:                 8;
 }
 
 
-body                    {
-height:                 auto;
-width:                  auto;
+/* Image:-
+*/
+article#r10-r13-c1-c3           {
+border-color:                   lightgrey black lightgrey black;
+border-style:                   groove solid groove solid;
+border-width:                   8px 2px 8px 2px;
+grid-column-end:                3;
+grid-column-start:              1;
+grid-row-end:                   13;
+grid-row-start:                 10;
 }
 
 
-div#r1-r2-c1-c5         {
-border-style:           solid solid solid solid;
-border-width:           4px 4px 4px 4px;
-grid-column-end:        5;
-grid-column-start:      1;
-grid-row-end:           2;
-grid-row-start:         1;
-height:                 45%;
-padding:                12px 12px 12px 12px;
-width:                  96%;
+article#r10-r13-c1-c3   img     {
+height:                         600px;
+width:                          404px;
 }
 
 
-#section-echoe              {
-column-gap:                 8px;
-display:                    grid;
-grid-template-columns:      repeat(5,   200px);
-grid-template-rows:         repeat(10,  200px);
-height:                     100%;
-row-gap:                    8px;
-width:                      100%;   
+article#r10-r13-c3-c4           {
+border-color:                   black black lightgrey lightgrey;
+border-style:                   solid solid groove groove;
+border-width:                   2px 2px 8px 8px;
+grid-column-end:                4;
+grid-column-start:              3;
+grid-row-end:                   13;
+grid-row-start:                 10;
 }
 
 
-ul.header-left      a       {
-padding:                    4px 8px 4px 8px;
+body                            {
+height:                         auto;
+width:                          auto;
 }
 
 
-ul.header-left      a:hover {
-background-color:           black;
-color:                      whitesmoke;
+div#r1-r2-c1-c5                 {
+border-style:                   solid solid solid solid;
+border-width:                   4px 4px 4px 4px;
+grid-column-end:                5;
+grid-column-start:              1;
+grid-row-end:                   2;
+grid-row-start:                 1;
+height:                         45%;
+padding:                        12px 12px 12px 12px;
+width:                          96%;
 }
 
 
-ul.header-left      li      {
-background-color:           antiquewhite;
-border-style:               groove solid groove solid;
-border-width:               6px 2px 6px 2px;
-float:                      left;
-margin:                     8px 8px 8px 8px;
-padding:                    4px 4px 4px 4px;
+#section-echoe                  {
+column-gap:                     8px;
+display:                        grid;
+grid-template-columns:          repeat(5,   200px);
+grid-template-rows:             repeat(13,  200px);
+height:                         100%;
+row-gap:                        8px;
+width:                          100%;   
+}
+
+
+ul.header-left      a           {
+padding:                        4px 8px 4px 8px;
+}
+
+
+ul.header-left      a:hover     {
+background-color:               black;
+color:                          whitesmoke;
+}
+
+
+ul.header-left      li          {
+background-color:               antiquewhite;
+border-style:                   groove solid groove solid;
+border-width:                   6px 2px 6px 2px;
+float:                          left;
+margin:                         8px 8px 8px 8px;
+padding:                        4px 4px 4px 4px;
 }      
 
 
-ul.header-right     li      {
-border-width:               8px 4px 8px 4px;
-float:                      right;
-padding:                    6px 2px 6px 2px;
+ul.header-right     li          {
+border-width:                   8px 4px 8px 4px;
+float:                          right;
+padding:                        6px 2px 6px 2px;
 }
 
 
-ul.header-left      li, ul.header-right     li      {
-display:                                            inline;
-font-family:                                        'Times New Roman', Times, serif;
-font-style:                                         italic;
+ul.header-left      li, ul.header-right     li      
+                                {
+display:                        inline;
+font-family:                    'Times New Roman', Times, serif;
+font-style:                     italic;
 }
 
 
-#facebook, #instagram, #whatsapp                    {
-height:                                             35px;
-padding:                                            4px 8px 4px 8px;
-margin:                                             8px 8px 8px 8px;
-width:                                              35px;
+#facebook, #instagram, #whatsapp
+                                {
+height:                         35px;
+padding:                        4px 8px 4px 8px;
+margin:                         8px 8px 8px 8px;
+width:                          35px;
 }
