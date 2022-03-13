@@ -1,0 +1,52 @@
+div.cell    img    {
+height:            250px;
+width:             250px; 
+overflow:          hidden;
+}
+
+
+div#header      {
+height:         2%;
+width:          100%;
+}
+
+
+body, div#section-alpha    {
+width:                     785px;
+height:                    2000px; 
+}
+
+div#photography           { 
+background-color:         whitesmoke;
+display:                  grid;
+grid-column-gap:          1px;
+grid-row-gap:             1px;
+grid-template-columns:    repeat(3, 1fr);
+height:                   785px;
+width:                    785px;
+}
+
+
+div#photography    div.cell    {
+height:                        250px;
+padding:                       4px 2px 4px 2px;
+width:                         250px;
+}
+
+
+div.theme        {
+border-style:    groove solid groove solid;
+border-width:    4px 4px 4px 4px;
+height:          1000px;
+margin:          0px 0px 8px 0px;
+width:           100%;
+}
+
+
+div#top-left, div#middle-left, div#bottom-left    {
+margin-left:                                      4px;     
+}
+
+div#top-right, div#middle-right, div#bottom-right    {
+margin-right:                                        4px;
+}
