@@ -1,0 +1,148 @@
+body                                    {
+height:                                 1680px;
+width:                                  1995px;
+}
+
+div#header-two                          {
+height:                                 5%;
+width:                                  100%;
+}
+
+div#item-five                           {
+grid-column-end:                        4;
+grid-column-start:                      2;
+grid-row-end:                           5;
+grid-row-start:                         4;
+height:                                 490px;
+width:                                  1190px;
+}
+
+div#item-four                           {
+grid-column-end:                        5;
+grid-column-start:                      4;
+grid-row-end:                           5;
+grid-row-start:                         3;
+height:                                 1015px;
+width:                                  595px;
+}
+
+div#item-one                            {
+grid-column-end:                        4;
+grid-column-start:                      3;
+grid-row-end:                           4;
+grid-row-start:                         2;
+height:                                 1015px;
+padding:                                4px 4px 4px 4px;
+width:                                  595px;
+}
+
+div#item-seven                          {
+grid-column-end:                        3;
+grid-column-start:                      2;
+grid-row-end:                           3;
+grid-row-start:                         1;
+height:                                 1015px;
+width:                                  595px;
+}
+
+div#item-six                            {
+grid-column-end:                        3;
+grid-column-start:                      1;
+grid-row-end:                           4;
+grid-row-start:                         3;
+height:                                 490px;
+width:                                  945px;
+}
+
+div#item-three                          {
+grid-column-end:                        6;
+grid-column-start:                      4;
+grid-row-end:                           3;
+grid-row-start:                         2;
+height:                                 490px;
+margin-left:                            28px;
+width:                                  945px;
+}
+
+div#item-two                            {
+grid-column-end:                        5;
+grid-column-start:                      3;
+grid-row-end:                           2;
+grid-row-start:                         1;
+height:                                 490px;
+margin-left:                            28px;
+width:                                  1190px;
+}
+
+div.item                                {
+background-color:                       whitesmoke;
+border-color:                           black;
+border-style:                           solid solid solid solid;
+border-width:                           4px 4px 4px 4px;
+padding:                                4px;
+}
+
+div#photography-two                     {
+background-color:                       white;
+display:                                grid;
+grid-column-gap:                        32px;
+grid-row-gap:                           32px;
+grid-template-columns:                  350px 595px 595px 595px 350px;
+grid-template-rows:                     490px 490px 490px 490px;
+/* Height = 490 + 490 + 1015 
+= 1995px */
+height:                                 1995px;
+/* Width =  945 + 595 + 945 
+= 2485px */
+width:                                  2485px;
+}
+
+div#section-alpha-two                   {
+height:                                 1715px;
+width:                                  2020px;
+}
+
+div.theme-two                           {
+border-style:                           solid groove solid groove;
+border-width:                           4px 4px 4px 4px;
+margin:                                 0px 0px 8px 0px;
+}
+
+img.grayscale                           {
+filter:                                 grayscale(70%);
+}
+
+img#img-five                            {
+height:                                 490px;
+width:                                  1190px;
+}
+
+img#img-four                            {
+height:                                 1015px;
+width:                                  595px;
+}
+
+img#img-one                             {
+height:                                 1015px;
+width:                                  595px;                
+}
+
+img#img-seven                           {
+height:                                 1015px;
+width:                                  595px;
+}
+
+img#img-six                             {
+height:                                 490px;
+width:                                  945px;
+}
+
+img#img-three                           {
+height:                                 490px;
+width:                                  945px;
+}
+
+img#img-two                             {
+height:                                 490px;
+width:                                  1190px;
+}
